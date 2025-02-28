@@ -1,0 +1,24 @@
+AWS Labs
+
+UserIDs are Setup in AWS. Pl login and create an EC2 Instance by following below instruction:-
+
+
+https://590184115155.signin.aws.amazon.com/console
+
+User Id : 7 Digit TNSDC ID (Example F012834)
+
+Password : Welcome@123 (you will be forced to reset on first login)
+
+
+
+Once you login go to EC2
+On the top right ensure you region is always - us-east-1 OR us-west-2 ONLY
+Click Launch Instance
+Give a name - Your UserID_EC2 (naming to be strictly followed - unnamed instances will be terminated)
+Select Amazon Linux 
+Select Amazon Linux 2023 AMI
+Instance type - t2.micro or t3.micro  (VERY IMPORTANT - DO NOT SELECT ANY OTHER OPTION)
+Key pair - click and select Test
+Firewall - Create security group
+Advanced details - Spot Instance 
+
